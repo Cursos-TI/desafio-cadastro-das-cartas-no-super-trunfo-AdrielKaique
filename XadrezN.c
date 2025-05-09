@@ -3,22 +3,22 @@
     int main(){
         int idade, matricula;
         float altura;
-        chat nome[50];
+        char nome[50];
 
-        printf("digite sua idade: /n");
+        printf("digite sua idade: \n");
         scanf("%d", &idade);
 
-        printf("digite sua altura: /n");
+        printf("digite sua altura: \n");
         scanf("%f", &altura);
 
-        printf("digite seu nome: /n");
+        printf("digite seu nome: \n");
         scanf("%s", &nome);
 
-        printf("digite sua matricula: /n");
+        printf("digite sua matricula: \n");
         scanf("%d", &matricula);
 
-        printf("Nome do aluno: %s - Matricula: %d", nome, matricula);
-        printf("Idade: %d - Altura: %f");
+        printf("Nome do aluno: %s - Matricula: %d \n", nome, matricula);
+        printf("Idade: %d - Altura: %f", idade, altura);
 
         return 0;
     }
