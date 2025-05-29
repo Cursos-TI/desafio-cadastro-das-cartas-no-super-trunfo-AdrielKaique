@@ -1,5 +1,4 @@
 // TEMA 2 - Super Trunfo em C: desenvolvendo a lógica do jogo
-// Desafio: nível novato
 // Desafio: nível Aventureiro - Implementando menu interativo e comparação por atributo
 
 #include <stdio.h>
